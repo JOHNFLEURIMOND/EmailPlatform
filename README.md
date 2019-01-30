@@ -17,6 +17,35 @@ I would like to style this better probably use Bootstrap and actually use a npm 
 No matter what my experience level, being an engineer means continuously learning. Every time I build something I always have those *whoa this is awesome* or *ahh ha moment*. During this project, I learned generate random ids with a plug in called UUID.
 
 I learned how to use Axios to make request like Fetch API. Axios is promise-based and I could take advantage of async and await for more readable asynchronous code. This allowed me to fetch To-Do from JSON placeholders API so I wouldn't have to hard code it. I use componentDidMount() to make my request which was the first time for me .
+```componentDidMount() {
+  axios
+    .get("https://jsonplaceholder.typicode.com/todos?_limit=10")
+    .then(res =>
+      this.setState({
+        todos: res.data
+      })
+    );
+}
+```
+Before this application I been thrown into the world of Formik which is a Node Package by Jared Palmer that handle the state of alot of things for handle event callback functions like (handleBlur, handleSubmit), setup validation, and easy error handling. So with this app I got real acquainted with state and setState.
+
+```  state = {
+    title: ""
+  };
+
+  onSubmit = e => {
+    e.preventDefault();
+    this.props.Addtodo(this.state.title);
+    this.setState({
+      title: ""
+    });
+  };
+
+  onChange = e =>
+    this.setState({
+      [e.target.name]: e.target.value
+    });
+    ```
 
 I also learned how to do inline style in this application.
 
@@ -38,7 +67,6 @@ const headerStyle = {
 };
 
 export default Header;
-
 ```
  and other fundamentals stuff such as components, state, props, JSX, events, etc.
 
