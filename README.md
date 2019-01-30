@@ -30,7 +30,7 @@ I learned how to use Axios to make request like Fetch API. Axios is promise-base
 Before this application I been thrown into the world of Formik which is a Node Package by Jared Palmer that handle the state of alot of things for handle event callback functions like (handleBlur, handleSubmit), setup validation, and easy error handling. So with this app I got real acquainted with state and setState.
 
 ```state = {
-    title: ""
+   title: ""
   };
 
   onSubmit = e => {
@@ -47,7 +47,7 @@ Before this application I been thrown into the world of Formik which is a Node P
     });
     ```
 
-I also learned how to do inline style in this application.
+I also learned how to do inline styling vs external as in just implementing it via index.css. I thought it was a separations of concerns but I guess not in React.
 
 ```import React from "react";
 
