@@ -29,7 +29,7 @@ I learned how to use Axios to make request like Fetch API. Axios is promise-base
 ```
 Before this application I been thrown into the world of Formik which is a Node Package by Jared Palmer that handle the state of alot of things for handle event callback functions like (handleBlur, handleSubmit), setup validation, and easy error handling. So with this app I got real acquainted with state and setState.
 
-```  state = {
+```state = {
     title: ""
   };
 
