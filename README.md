@@ -51,14 +51,16 @@ I also learned a lot about Axios and the promises it provides as well as its met
 I have been using Axios alot more lately instead of just ES6 Fetch. Its like night and day in code.
 
 ## Axios
-```axios.post('https://jsonplaceholder.typicode.com/posts', {
+```
+    axios.post('https://jsonplaceholder.typicode.com/posts', {
     title,
     body
   }).then((data) => console.log(data))
   .catch((err) => console.log(err))
   ```
 ## ES6 Fetch
-```fetch('https://jsonplaceholder.typicode.com/posts', {
+```
+    fetch('https://jsonplaceholder.typicode.com/posts', {
     method: 'POST',
     body: JSON.stringify({
       title,
