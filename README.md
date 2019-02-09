@@ -1,7 +1,6 @@
 ![ReactEmail](public/email.png)
 ![ReactEmail](public/email2.png)
 
- @smithmanny
 
 # My Awesome Project
 This is a Full-Stack React Email application that allows to send emails vis Nodemailer and Axios.
