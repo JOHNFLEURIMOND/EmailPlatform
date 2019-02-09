@@ -79,7 +79,7 @@ I have been using Axios alot more lately instead of just ES6 Fetch. Its like nig
   ```
 I will chose the Axios method any day because I have to write less code and its easier because you don't to write what method, and `JSON.stringify({object})` and blaise blah. Axios is straight to the point with their methods.
 
-I am getting better with git commands, I ran in alot of issues when pushing and had to git pull and that didn't work so I had to remove the file that was causing this conflict and remove the files that was causing the issue and remove the origin and adding it back and add, commit, pushed it to Github. Alot of this troubleshooting came from reading this book called "Git for Humans" I have been reading and just really reading all of the error and doing what they're asking me to do. Even thought I feel like I am a `command` away from blowing up my computer.
+I am getting better with git commands, I ran in alot of issues when pushing and had to git pull and that didn't work so I had to remove the file that was causing this conflict and remove the origin and adding it back and add, commit, pushed it to Github. Alot of this troubleshooting came from reading this book called "Git for Humans" I have been reading and just really reading all of the error and doing what they're asking me to do. Even thought I feel like I am a `command` away from blowing up my computer.
 
 
 ## portfolio:
