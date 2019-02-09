@@ -28,6 +28,12 @@ class App extends Component {
         name,
         email,
         message,
+      })
+      .then(response => {
+        console.log(response);
+      })
+      .catch(error => {
+        console.log(error.response);
       });
   }
 
