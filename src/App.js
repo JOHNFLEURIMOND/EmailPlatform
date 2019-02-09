@@ -28,12 +28,6 @@ class App extends Component {
         name,
         email,
         message,
-      })
-      .then(response => {
-        console.log(response);
-      })
-      .catch(error => {
-        console.log(error.response);
       });
   }
 
@@ -108,6 +102,7 @@ class App extends Component {
                     <input
                       type="name"
                       name="name"
+                      form = {this.state.form}
                       className="form-control"
                       placeholder="Enter Your Name"
                       onChange={this.handleChange}
@@ -119,6 +114,7 @@ class App extends Component {
                       type="email"
                       name="email"
                       className="form-control"
+                      form = {this.state.form}
                       placeholder="Enter Your Email. "
                       onChange={this.handleChange}
                     />
@@ -132,6 +128,7 @@ class App extends Component {
                     <textarea
                       className="form-control"
                       name="message"
+                      form = {this.state.form}
                       onChange={this.handleChange}
                       rows="3"
                     />

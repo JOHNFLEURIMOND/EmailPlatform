@@ -12,7 +12,7 @@ This application is made with React and nodemailer.
 I need to fix the POST method
 
 ## Lessons Learned:
-Once I connect everything you hear it first
+Once I connect everything you'll hear it first
 
 ## portfolio:
 

@@ -11,11 +11,11 @@ app.use(
 );
 
 app.post('/api/form', (req, res) => {
-  res.send('hello');
+  res.send(name, email, message),
   console.log(req.data);
 });
 
-const port = process.env.PORT;
+const port = process.env.PORT || 7800;
 
 app.listen(port, ()=> {
   console.log('Whatever is clever, quit never!' + port);
