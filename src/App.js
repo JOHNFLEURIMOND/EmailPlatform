@@ -54,7 +54,6 @@ class App extends Component {
             aria-label="Toggle navigation">
             <span className="navbar-toggler-icon" />
           </button>
-
           <div className="collapse navbar-collapse" id="navbarColor01">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item active">
