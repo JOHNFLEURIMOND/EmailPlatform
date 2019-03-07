@@ -1,4 +1,4 @@
-![ReactEmail](public/App.png)
+![ReactEmail](public/email.png)
 
 
 # My Awesome Project
