@@ -48,7 +48,7 @@ app.post('/api/form', (req, res) => {
       from: 'test@testBoston.com', // sender address
       to: 'er5ad6235x33lk5h@ethereal.email', // list of receivers
       subject: 'Hello ✔', // Subject line
-      text: req.body.message, // plain text body
+      text: req.body.comments, // plain text body
       html: htmlEmail, // html body
     };
     transporter.sendMail(mailOptions, (err, info) => {

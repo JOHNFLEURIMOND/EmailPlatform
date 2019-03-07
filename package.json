@@ -25,7 +25,8 @@
     "eject": "react-scripts eject",
     "server": "nodemon index.js",
     "client": "react-scripts start --prefix src",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "echo Skip build on Heroku"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -42,5 +43,6 @@
     "jest": "^23.6.0",
     "lodash": "^4.17.11",
     "prettier": "1.16.1"
-  }
+  },
+  "heroku-run-build-script": true
 }

@@ -1,5 +1,4 @@
-![ReactEmail](public/email.png)
-![ReactEmail](public/email2.png)
+![ReactEmail](public/App.png)
 
  @smithmanny
 
