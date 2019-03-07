@@ -28,7 +28,7 @@
       "parser": "typescript-eslint-parser",
       "rules": {
         "no-unused-vars": 0,
-        "no-undef": 0,
+        "no-undef": 0
       }
     }
   ]
