@@ -3,6 +3,7 @@
 
 # My Awesome Project
 This is a Full-Stack React Email application that allows to send emails vis Nodemailer and Axios.
+https://fleurimondemailplatform.herokuapp.com/
 
 ## How It's Made:
 This application is made with React, Axios and Nodemailer.
