@@ -9,7 +9,7 @@ https://fleurimondemailplatform.herokuapp.com/
 This application is made with React, Axios and Nodemailer.
 
 ## Optimizations.
-Completed
+Remove Bootstap, update to React Hooks, class to function components, Use CSS framework for components & inject styling, linter, Jest, eject CRA & Hook up webpack....learned alot since I last created this, so now time to apply it...
 
 ## Lessons Learned:
 I learned about running server side and client side code with React.js. It is different from when you do it in regular html, css, javascript because you're setting up express to run both files vs when using react you have create-react-app. Just a experience thing for me on configurating the files to work.
