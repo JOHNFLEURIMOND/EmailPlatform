@@ -51,7 +51,7 @@
     "concurrently": "^4.1.2",
     "express": "^4.17.1",
     "next": "^9.2.2",
-    "nodemailer": "^5.1.1",
+    "nodemailer": "^6.4.16",
     "nodemon": "^1.19.4",
     "react-animated-css": "^1.2.1",
     "react-dom": "^16.13.0",
